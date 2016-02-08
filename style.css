@@ -1,0 +1,33 @@
+html, section, article, h1, h2, p {
+  background: #303030;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  background: red;
+  color: white;
+  font-size: 40px;
+  padding: 24px;
+  top: 0;
+}
+
+.block {
+  background: #E0E0E0;
+  display: block;
+  font-family: monospace;
+  margin: 0px 200px 0px 200px;
+  padding: 0px;
+  text-align: left;
+}
+
+strong {
+  display: block;
+  background: pink;
+}
