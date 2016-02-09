@@ -1,0 +1,50 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="application/javascript"
+           src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+  </script>
+</head>
+
+<body>
+<!-- <canvas width="1440" height="640" id="canvas"></canvas> -->
+<canvas id="canvas"></canvas>
+<hr>
+
+<table>
+  <thead>
+    <tr>
+      <th><h3>Wind Speed</h3></th>
+      <th><h3>Snow Amount</h3></th>
+      <th><h3>Drift<h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><div class="wind">0</div></td>
+      <td><div class="snow_amt">250</div></td>
+      <td><div class="drift">1</div></td>
+    </tr>
+    <tr>
+      <td>
+        <button id="submit-button-wind-slow">-wind</button>
+        <button id="submit-button-wind-fast">+wind</button>
+      </td>
+      <td>
+        <button id="submit-button-snow-amt-less">-snow</button>
+        <button id="submit-button-snow-amt-more">+snow</button>
+      </td>
+      <td>
+        <button id="submit-button-drift-less">-drift</button>
+        <button id="submit-button-drift-more">+drift</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+
+<script src="lib/snow.js">
+</script>
+
+</html>

@@ -1,0 +1,17 @@
+html, body {
+  background: #303030;
+  color: white;
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  margin: auto;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
