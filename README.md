@@ -9,3 +9,5 @@ Project spun off of [Josh On Design's Canvas Deep Dive tutorial](http://joshonde
 * Automatically resizing canvas based on window size
 * CSS-styled jquery buttons
 * Canvas-based rendering
+
+[##Live Demo](http://timhwang21.github.io/js-snow/)
