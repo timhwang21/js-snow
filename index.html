@@ -7,16 +7,40 @@
 </head>
 
 <body>
-<canvas width="1440" height="640" id="canvas"></canvas>
+<!-- <canvas width="1440" height="640" id="canvas"></canvas> -->
+<canvas id="canvas"></canvas>
 <hr>
 
-<h3>Wind Speed</h3>
-<div class="wind">0</div>
-
-<br>
-
-<button id="submit-button-wind-slow">-wind</button>
-<button id="submit-button-wind-fast">+wind</button>
+<table>
+  <thead>
+    <tr>
+      <th><h3>Wind Speed</h3></th>
+      <th><h3>Snow Amount</h3></th>
+      <th><h3>Drift<h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><div class="wind">0</div></td>
+      <td><div class="snow_amt">200</div></td>
+      <td><div class="drift">1</div></td>
+    </tr>
+    <tr>
+      <td>
+        <button id="submit-button-wind-slow">-wind</button>
+        <button id="submit-button-wind-fast">+wind</button>
+      </td>
+      <td>
+        <button id="submit-button-snow-amt-less">-snow</button>
+        <button id="submit-button-snow-amt-more">+snow</button>
+      </td>
+      <td>
+        <button id="submit-button-drift-less">-drift</button>
+        <button id="submit-button-drift-more">+drift</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
 
