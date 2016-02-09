@@ -15,3 +15,47 @@ table {
   text-align: center;
   width: 100%;
 }
+
+button {
+  background-color: #555555;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover:enabled {
+  background-color: #808080;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:active:enabled {
+  background-color: #C0C0C0 ;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
