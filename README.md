@@ -10,4 +10,4 @@ Project spun off of [Josh On Design's Canvas Deep Dive tutorial](http://joshonde
 * CSS-styled jquery buttons
 * Canvas-based rendering
 
-[##Live Demo](http://timhwang21.github.io/js-snow/)
+## [Live Demo](http://timhwang21.github.io/js-snow/)
